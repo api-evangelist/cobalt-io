@@ -1,0 +1,17 @@
+generated: '2026-10-25'
+method: searched
+probe: true
+source: https://www.cobalt.io/solutions/compliance
+url: https://www.cobalt.io/solutions/compliance
+certifications:
+- SOC 2
+- ISO 27001
+- PCI DSS
+- HIPAA
+evidence:
+- source: https://www.cobalt.io/solutions/compliance
+  keywords:
+  - soc 2
+  - iso 27001
+  - pci-dss
+  - hipaa

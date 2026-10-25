@@ -1,25 +1,92 @@
 aid: cobalt-io
+
 name: Cobalt
-description: 'Cobalt is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio;
-  backed by 500-global) and added to the network as a stub for full-pipeline profiling.'
+
+image: https://www.cobalt.io/hubfs/cobalt-social-image-1200x630.jpg
+
+description: 'Cobalt provides an AI‑powered offensive security platform that delivers continuous penetration testing as a service. Their solution combines human‑led expertise with automated testing, integrating with development workflows to identify and remediate vulnerabilities across web applications, APIs, mobile apps, and cloud environments. Cobalt’s platform offers flexible credit‑based pricing, real‑time reporting, and integrations that help organizations embed security into the software development lifecycle.'
+
 url: https://raw.githubusercontent.com/api-evangelist/cobalt-io/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-25 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-25'
+
 modified: '2026-10-25'
+
 tags:
 - Company
-apis: []
+- Security
+- PenetrationTesting
+- OffensiveSecurity
+- SaaS
+- Platform
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
+common:
+- type: Compliance
+  url: https://www.cobalt.io/solutions/compliance
+- type: Authentication
+  url: authentication/cobalt-io-authentication.yml
+- type: LLMsTxt
+  url: llms/cobalt-io-llms.txt
+- type: Hosts
+  url: hosts/cobalt-io-hosts.yml
+- type: Vendors
+  url: vendors/cobalt-io-vendors.yml
+- type: Newsroom
+  url: https://www.cobalt.io/press
+- type: Leadership
+  url: https://www.cobalt.io/team
+- type: TrustCenter
+  url: security/cobalt-io-trust-center.yml
+- type: DomainSecurity
+  url: security/cobalt-io-domain-security.yml
+- type: Website
+  url: https://www.cobalt.io
+- type: Documentation
+  url: https://www.cobalt.io/get-started
+- type: APIReference
+  url: https://www.cobalt.io/get-started
+- type: GettingStarted
+  url: https://www.cobalt.io/get-started
+- type: Pricing
+  url: https://www.cobalt.io/platform/pricing
+- type: TermsOfService
+  url: https://www.cobalt.io/terms
+- type: PrivacyPolicy
+  url: https://www.cobalt.io/privacy-opt-out
+- type: Blog
+  url: https://www.cobalt.io/blog
+
+apis: []
+
 x-backed-by:
 - 500-global
-common:
-- type: Website
-  url: https://cobalt.io
+
+x-coverage:
+  state: unreadable
+  reason: no-machine-readable-spec
+  detail: No OpenAPI, GraphQL, AsyncAPI, gRPC, or WSDL contracts were found on the provider's hosts.
+  evidence:
+    - url: https://api.cobalt.io/openapi.json
+      status: 404
+  checked: '2026-10-25'
+x-enrichment:
+  date: '2026-10-25'
+  status: enriched
+  artifacts_added: 11
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

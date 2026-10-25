@@ -1,0 +1,24 @@
+generated: '2026-10-25'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://docs.cobalt.io/articles/target-authentication-HPNawf0VBJ.md
+sources:
+- https://docs.cobalt.io/articles/target-authentication-HPNawf0VBJ.md
+- https://docs.cobalt.io/articles/revoke-your-personal-cobalt-api-tokens-1QJ0vt4nzg.md
+- https://docs.cobalt.io/articles/get-an-organization-token-RlqtesM1QN.md
+- https://docs.cobalt.io/articles/create-a-personal-cobalt-api-token-LT9Nl8EAVR.md
+description: Authentication methods for Cobalt API
+schemes:
+- type: http-bearer
+  name: Personal API Token
+  evidence: To authenticate to the Cobalt API, you need an access token.
+  location: header
+  header: Authorization
+  how_to_obtain: Create a personal API token in the Cobalt UI (see Create a Personal Cobalt API Token page).
+- type: apiKey
+  name: Organization Token
+  evidence: Include the organization token in the X-Org-Token header of your requests.
+  location: header
+  header: X-Org-Token
+  how_to_obtain: Retrieve the organization token via the API using a personal API token (see Get an Organization Token page).
+docs: https://docs.cobalt.io/articles/target-authentication-HPNawf0VBJ.md

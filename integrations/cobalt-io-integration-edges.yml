@@ -1,0 +1,20 @@
+generated: '2026-10-25'
+method: none
+source:
+- https://zapier.com/apps/cobalt-io/integrations
+- https://zapier.com/apps/cobalt/integrations
+- https://n8n.io/integrations/cobalt-io/
+- https://n8n.io/integrations/cobalt/
+- https://composio.dev/toolkits/cobalt-io
+- https://monid.ai/tools/cobalt-io
+checked:
+- https://composio.dev/toolkits/cobalt-io
+- https://monid.ai/tools/cobalt-io
+- https://n8n.io/integrations/cobalt-io/
+- https://n8n.io/integrations/cobalt/
+- https://zapier.com/apps/cobalt-io/integrations
+- https://zapier.com/apps/cobalt/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
